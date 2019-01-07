@@ -2,7 +2,7 @@
 
 ## 鍵の作成
 ```
-ssh-keygen -t rsa -f ito_key
+ssh-keygen -k rsa -f ito_key
 ```
 
 ## .ssh/config の設定
