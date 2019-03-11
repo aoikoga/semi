@@ -1,0 +1,6 @@
+**/*_images.csv
+**/*_labels.csv
+dict.csv
+train/
+validation/
+samples/
