@@ -17,8 +17,8 @@ def make_nodes(n, data):
             
             for dr in dr_list:
                 for rad in rad_list:
-                    x = dr * math.sin(rad)
-                    y = dr * math.cos(rad)
+                    x = dr * math.cos(rad)
+                    y = dr * math.sin(rad)
                     str = "*add_nodes %f %f %f" % (x, y, zz)
                     py_send(str)
             
@@ -40,8 +40,8 @@ def make_nodes(n, data):
             
         for dr in dr_list:
             for rad in rad_list:
-                x = dr * math.sin(rad)
-                y = dr * math.cos(rad)
+                x = dr * math.cos(rad)
+                y = dr * math.sin(rad)
                 str = "*add_nodes %f %f %f" % (x, y, zz)
                 py_send(str)
     return
